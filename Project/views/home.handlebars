@@ -1,0 +1,17 @@
+<header id="home" class="masthead d-flex align-items-center">
+    <div class="container px-4 px-lg-5 text-center">
+        {{#if message}} 
+        <h1 class="mb-2 text-light">
+            {{message}}    
+        </h1>
+        {{/if}}
+        <h5 class="mb-3 text-light">Fine Cuisine In the Heritage Town Of Dalkey</h5>
+        <a class="btn btn-outline-warning btn-xl" href="/booking">Book a table</a>
+    </div>
+</header>
+
+<div class="row bg-primary">
+    <div class="container">
+        {{> links}}
+    </div>
+</div>

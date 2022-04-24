@@ -1,0 +1,20 @@
+<div id="booking" class="masthead d-flex align-items-center">
+    <div class="container px-4 px-lg-5 text-center">
+        <div class="card text-white bg-primary mb-3  col-md-6 col-
+        12">
+            <div class="card-body">
+            {{#if flash}}
+                <div class="alert alert-dismissible alert-{{flash.type}} " role="alert">
+                <strong>{{flash.intro}}</strong> {{{flash.message}}}
+                </div>
+            {{/if}}
+
+            <p class="card-text">We cant wait to see you</p>
+            <p class="card-text">Please contact if there is any changes before your reservation</p>
+
+            <a class="btn btn-outline-warning btn-xl mt-2" href="/">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+

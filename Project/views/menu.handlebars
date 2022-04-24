@@ -1,0 +1,19 @@
+<div class="container">
+
+<h2 class="text-white text-center mt-4 mb-2">Discover great food at De'Villes</h2>
+
+<ul class="justify-content-centre">
+  {{#each menu}}
+    <a href="/menu{{this.link}}">
+    <div class="card col-12 col-md-3 b-4 bg-primary text-white mb-3">
+      <div class="card-title p-2">{{this.name}}</div>
+      <img class="card-img-top p-2"></img><img class="card-img-top" src="{{this.imageurl}}" alt="Food Image">
+      </div>
+      </a>
+  {{/each}}
+</ul>
+
+<script>console.log(menu)</script>
+
+</div>
+

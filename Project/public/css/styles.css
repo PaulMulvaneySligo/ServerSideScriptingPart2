@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(77, 77, 77);
+}
+
+#home{
+    color: white;
+    background-image: url(/images/background.jpg) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+#fourzeroFour{
+    background-image: url(/images/404.png) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+#booking{
+    background-image: url(/images/booking.png) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+.card{
+    display: inline-block;
+}
+
+#fiveHundred{
+    background-image: url(/images/500.jpg) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+#Lunch{
+    background-image: url(/images/LunchBG.png) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+#Dinner{
+    background-image: url(/images/DinnerBG.png) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+#Desert{
+    background-image: url(/images/DesertBG.png) ;   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,31 @@
+<div id="{{meal.name}}" class="masthead d-flex align-items-center">
+    <div class="container px-4 px-lg-5 text-center">
+        <div class="card text-white bg-primary mb-3 col-md-6 col-12">
+            
+            <div class="card-body">
+            <h3 class="card-title m-2">{{meal.name}} at Devilles</h3>
+
+            {{#if meal.time}}
+            <h5 class="text-muted">{{meal.name}} served from {{meal.time}}</h5>
+            {{/if}}
+
+            <div class="row">
+
+            <ul class="col-8">
+            {{#each meal.Items}}
+            <li class="mb-2  d-flex justify-content-start">{{@key}}</li>
+            {{/each}}
+            </ul>
+
+            <ul class="col-4">
+            {{#each meal.Items}}
+            <li class="mb-2  d-flex justify-content-end">{{this}}</li>
+            {{/each}}
+            </ul>
+             </div>
+            
+            <a class="btn btn-outline-warning btn-xl mt-2" href="/booking">Book a table</a>
+            </div>
+        </div>
+    </div>
+</div>
